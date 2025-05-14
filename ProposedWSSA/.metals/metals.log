@@ -1,0 +1,488 @@
+2025.05.14 20:25:10 INFO  Started: Metals version 1.5.3 in folders '/home/admini/Proposed_WS_SA_scala/ProposedWSSA' for client Visual Studio Code 1.97.2.[0m
+2025.05.14 20:25:10 INFO  no build target found for /home/admini/Proposed_WS_SA_scala/ProposedWSSA/Csa.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.05.14 20:25:13 INFO  Running List(/usr/local/bin/scala-cli, setup-ide, /home/admini/Proposed_WS_SA_scala/ProposedWSSA)[0m
+2025.05.14 20:25:13 INFO  Attempting to connect to the build server...[0m
+2025.05.14 20:25:13 INFO  Running BSP server List(/usr/local/bin/scala-cli, bsp, --json-options, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-options-v2.json, --json-launcher-options, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-launcher-options.json, --envs-file, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-envs.json, /home/admini/Proposed_WS_SA_scala/ProposedWSSA)[0m
+2025.05.14 20:25:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.metals/bsp.trace.json or /home/admini/.cache/metals/bsp.trace.json[0m
+2025.05.14 20:25:13 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:15 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:15 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:15 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:15 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:16 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:16 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:18 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom.sha1[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom.sha1[0m
+2025.05.14 20:25:19 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom.sha1[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:20 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom.sha1[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom.sha1[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom.sha1[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom.sha1[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom[0m
+2025.05.14 20:25:23 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:24 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:24 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom.sha1[0m
+2025.05.14 20:25:24 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom.sha1[0m
+2025.05.14 20:25:24 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:25 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:25 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom.sha1[0m
+2025.05.14 20:25:26 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom.sha1[0m
+2025.05.14 20:25:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:27 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom.sha1[0m
+2025.05.14 20:25:28 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom.sha1[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom.sha1[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom.sha1[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:30 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom[0m
+2025.05.14 20:25:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom.sha1[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.pom[0m
+2025.05.14 20:25:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:33 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom.sha1[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom.sha1[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:34 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom.sha1[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom.sha1[0m
+2025.05.14 20:25:35 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/util/directories/0.1.2/directories-0.1.2.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:37 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.pom[0m
+2025.05.14 20:25:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.pom[0m
+2025.05.14 20:25:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.pom[0m
+2025.05.14 20:25:38 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:38 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:39 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:40 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:41 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom.sha1[0m
+2025.05.14 20:25:43 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.pom[0m
+2025.05.14 20:25:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.pom[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.pom[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.pom[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloading https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:45 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:47 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:47 INFO  BSP server: Downloading https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloaded https://s01.oss.sonatype.org/content/repositories/snapshots/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom.sha1[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.pom[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/util/directories/0.1.2/directories-0.1.2.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/util/directories/0.1.2/directories-0.1.2.jar[0m
+2025.05.14 20:25:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.10/bloop-shared_2.12-2.0.10.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.13.4/parsers_2.12-4.13.4.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.10/bloop-frontend_2.12-2.0.10.jar[0m
+2025.05.14 20:25:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.4/io_2.12-1.10.4.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.13.4/trees_2.12-4.13.4.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.7/util-cache_2.12-1.10.7.jar[0m
+2025.05.14 20:25:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.8/compiler-interface-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.8/zinc-core_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/io_2.12/4.13.4/io_2.12-4.13.4.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.8/zinc-compile-core_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.8/zinc_2.12-1.10.8.jar[0m
+2025.05.14 20:25:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/util/directories-jni/0.1.2/directories-jni-0.1.2.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.13.4/common_2.12-4.13.4.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.4/librarymanagement-core_2.12-1.10.4.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.jar[0m
+2025.05.14 20:25:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.8/zinc-classpath_2.12-1.10.8.jar[0m
+2025.05.14 20:25:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.5/scala-debug-adapter_2.12-4.2.5.jar[0m
+2025.05.14 20:25:59 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:25:59 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.jar (93.57 %, 572862 / 612231)[0m
+2025.05.14 20:25:59 INFO  BSP server: https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.jar (73.11 %, 540672 / 739528)[0m
+2025.05.14 20:25:59 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.jar (71.58 %, 113617 / 158731)[0m
+2025.05.14 20:25:59 INFO  BSP server: https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar (39.18 %, 245760 / 627250)[0m
+2025.05.14 20:25:59 INFO  BSP server: [0m
+2025.05.14 20:25:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.4/librarymanagement-ivy_2.12-1.10.4.jar[0m
+2025.05.14 20:26:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.8/zinc-apiinfo_2.12-1.10.8.jar[0m
+2025.05.14 20:26:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.10/bloop-backend_2.12-2.0.10.jar[0m
+2025.05.14 20:26:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar[0m
+2025.05.14 20:26:11 INFO  BSP server: Starting compilation server[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.0/scala3-compiler_3-3.7.0.pom[0m
+2025.05.14 20:26:13 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.05.14 20:26:13 WARN  Retrying connection to the build server scala-cli[0m
+2025.05.14 20:26:13 INFO  Running BSP server List(/usr/local/bin/scala-cli, bsp, --json-options, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-options-v2.json, --json-launcher-options, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-launcher-options.json, --envs-file, /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.scala-build/ide-envs.json, /home/admini/Proposed_WS_SA_scala/ProposedWSSA)[0m
+2025.05.14 20:26:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/admini/Proposed_WS_SA_scala/ProposedWSSA/.metals/bsp.trace.json or /home/admini/.cache/metals/bsp.trace.json[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.0/scala3-compiler_3-3.7.0.pom[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.0/scala3-compiler_3-3.7.0.pom[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.0/scala3-interfaces-3.7.0.pom[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.29.0/jline-terminal-jni-3.29.0.pom[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.29.0/jline-terminal-3.29.0.pom[0m
+2025.05.14 20:26:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.29.0/jline-reader-3.29.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.0/tasty-core_3-3.7.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.0/scala3-interfaces-3.7.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.29.0/jline-terminal-3.29.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.29.0/jline-terminal-jni-3.29.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.pom[0m
+2025.05.14 20:26:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.0/tasty-core_3-3.7.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.29.0/jline-reader-3.29.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.29.0/jline-parent-3.29.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.29.0/jline-parent-3.29.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-native/3.29.0/jline-native-3.29.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-native/3.29.0/jline-native-3.29.0.pom[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.29.0/jline-terminal-jni-3.29.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.29.0/jline-terminal-3.29.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.0/tasty-core_3-3.7.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-native/3.29.0/jline-native-3.29.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.29.0/jline-reader-3.29.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jni/3.29.0/jline-terminal-jni-3.29.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.0/scala3-interfaces-3.7.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.0/tasty-core_3-3.7.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.0/scala3-compiler_3-3.7.0.jar[0m
+2025.05.14 20:26:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.0/scala3-interfaces-3.7.0.jar[0m
+2025.05.14 20:26:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-native/3.29.0/jline-native-3.29.0.jar[0m
+2025.05.14 20:26:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.29.0/jline-terminal-3.29.0.jar[0m
+2025.05.14 20:26:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.29.0/jline-reader-3.29.0.jar[0m
+2025.05.14 20:26:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.0/scala3-compiler_3-3.7.0.jar[0m
+2025.05.14 20:26:25 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:25 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (27.10 %, 344064 / 1269512)[0m
+2025.05.14 20:26:25 INFO  BSP server: [0m
+2025.05.14 20:26:31 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:31 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (33.55 %, 425984 / 1269512)[0m
+2025.05.14 20:26:31 INFO  BSP server: [0m
+2025.05.14 20:26:37 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:37 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (45.17 %, 573440 / 1269512)[0m
+2025.05.14 20:26:37 INFO  BSP server: [0m
+2025.05.14 20:26:43 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:43 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (52.91 %, 671744 / 1269512)[0m
+2025.05.14 20:26:43 INFO  BSP server: [0m
+2025.05.14 20:26:48 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:48 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (60.66 %, 770048 / 1269512)[0m
+2025.05.14 20:26:48 INFO  BSP server: [0m
+2025.05.14 20:26:54 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:26:54 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (70.98 %, 901120 / 1269512)[0m
+2025.05.14 20:26:54 INFO  BSP server: [0m
+2025.05.14 20:27:00 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:27:00 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (86.47 %, 1097728 / 1269512)[0m
+2025.05.14 20:27:00 INFO  BSP server: [0m
+2025.05.14 20:27:06 INFO  BSP server: Still downloading:[0m
+2025.05.14 20:27:06 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar (98.08 %, 1245184 / 1269512)[0m
+2025.05.14 20:27:06 INFO  BSP server: [0m
+2025.05.14 20:27:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0.jar[0m
+2025.05.14 20:27:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.0/scala3-sbt-bridge-3.7.0.pom[0m
+2025.05.14 20:27:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.0/scala3-sbt-bridge-3.7.0.pom[0m
+2025.05.14 20:27:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.0/scala3-sbt-bridge-3.7.0.jar[0m
+2025.05.14 20:27:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.0/scala3-sbt-bridge-3.7.0.jar[0m
+2025.05.14 20:27:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0-sources.jar[0m
+2025.05.14 20:27:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.16/scala-library-2.13.16-sources.jar[0m
+2025.05.14 20:27:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.16/scala-library-2.13.16-sources.jar[0m
+2025.05.14 20:27:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.0/scala3-library_3-3.7.0-sources.jar[0m
+2025.05.14 20:27:12 INFO  time: Connected to build server in 1m59s[0m
+2025.05.14 20:27:12 INFO  Connected to Build server: scala-cli v1.8.0[0m
+2025.05.14 20:27:13 INFO  compiling proposedwssa_d5c0a6989e (6 scala sources)[0m
+2025.05.14 20:27:15 INFO  no build target found for /home/admini/Proposed_WS_SA_scala/ProposedWSSA/Csa.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.05.14 20:27:15 INFO  no build target found for /home/admini/Proposed_WS_SA_scala/ProposedWSSA/Csa.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.05.14 20:27:15 INFO  time: Imported build in 2.8s[0m
+2025.05.14 20:27:15 INFO  compiling proposedwssa_d5c0a6989e (6 scala sources)[0m
+2025.05.14 20:27:15 INFO  time: compiled ProposedWSSA_d5c0a6989e in 0.41s[0m
+May 14, 2025 8:27:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2025.05.14 20:27:20 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.05.14 20:27:22 INFO  time: indexed workspace in 6.95s[0m
+2025.05.14 20:27:22 INFO  compiling proposedwssa_d5c0a6989e (6 scala sources)[0m
+2025.05.14 20:27:22 INFO  time: compiled ProposedWSSA_d5c0a6989e in 0.27s[0m
+May 14, 2025 8:29:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 14, 2025 8:32:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.14 20:32:07 INFO  Shutting down server[0m
+2025.05.14 20:32:07 INFO  shutting down Metals[0m
+2025.05.14 20:32:07 INFO  Shut down connection with build server.[0m
+2025.05.14 20:32:07 INFO  Exiting server[0m
