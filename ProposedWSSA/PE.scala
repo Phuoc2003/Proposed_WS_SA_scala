@@ -4,6 +4,7 @@ package gemmini
 import chisel3._
 import chisel3.util._
 import Util._
+import _root_.gemmini.gemmini.MacUnit
 
 class PEControl[T <: Data : Arithmetic](accType: T) extends Bundle {
   val dataflow = UInt(1.W) // TODO make this an Enum
@@ -49,6 +50,9 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
   })
 
   val cType = if (df == Dataflow.WS) inputType else accType
+
+  val mac_unit = Module(new MacUnit(inputType, weightType, 
+    if (df == Dataflow.WS) outputType else accType, outputType))
 
   val a  = io.in_a
   val b  = io.in_b
