@@ -3,14 +3,13 @@ package ProposedWSSA
 import chisel3._
 
 
-class MacUnit[T <: Data](inputType: T, weightType: T, cType: T, dType: T, fbType: T)() extends RawModule {
+class MacUnit[T <: Data](inputType: T, weightType: T, cType: T, dType: T)() extends RawModule {
 
   val io = IO(new Bundle {
     val in_a  = Input(inputType)
     val in_b  = Input(weightType)
-    val in_c  = Input(cType)
-    val sFb = Input(fbType)
-    val cFb = Input(fbType)
+    val sFb = Input(SInt(32.W))
+    val cFb = Input(SInt(32.W))
     val c = Output(SInt(32.W))
     val s = Output(SInt(32.W))
     // If you need a second output, you can add it here, e.g.:
