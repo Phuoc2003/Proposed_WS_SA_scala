@@ -19,13 +19,13 @@ class Mul() extends RawModule {
 //   absA := Mux(signA, (( ~a)+"b1".U(1.W)).asTypeOf(Vec(8, Bool())), a.asTypeOf(Vec(8, Bool())))
 //   absB := Mux(signB, (( ~b)+"b1".U(1.W)).asTypeOf(Vec(8, Bool())), b.asTypeOf(Vec(8, Bool())))
 
-  val absA = Wire(UInt(8.W))
-  val absB = Wire(UInt(8.W))
-  absA := Mux(signA, (~a).asUInt + 1.U, a)
-  absB := Mux(signB, (~b).asUInt + 1.U, b)
+  val absA = Wire(SInt(8.W))
+  val absB = Wire(SInt(8.W))
+  absA := Mux(signA, (~a).asSInt + 1.S, a)
+  absB := Mux(signB, (~b).asSInt + 1.S, b)
 
 
-  val unsignedResult = Wire(Vec(16, Bool())) 
+  val unsignedResult = Wire(SInt(16.W))
 
   // Declare internal signals
   val s00 = Wire(Bool()) 
@@ -691,23 +691,42 @@ class Mul() extends RawModule {
   fa81.c := c67
   k68 := fa81.sum
   c68 := fa81.cout
-  unsignedResult(0) := s00
-  unsignedResult(1) := k01
-  unsignedResult(2) := k22
-  unsignedResult(3) := k37
-  unsignedResult(4) := k49
-  unsignedResult(5) := k50
-  unsignedResult(6) := k51
-  unsignedResult(7) := k60
-  unsignedResult(8) := k61
-  unsignedResult(9) := k62
-  unsignedResult(10) := k63
-  unsignedResult(11) := k64
-  unsignedResult(12) := k65
-  unsignedResult(13) := k66
-  unsignedResult(14) := k67
-  unsignedResult(15) := k68|c68
+  // unsignedResult(0) := s00
+  // unsignedResult(1) := k01
+  // unsignedResult(2) := k22
+  // unsignedResult(3) := k37
+  // unsignedResult(4) := k49
+  // unsignedResult(5) := k50
+  // unsignedResult(6) := k51
+  // unsignedResult(7) := k60
+  // unsignedResult(8) := k61
+  // unsignedResult(9) := k62
+  // unsignedResult(10) := k63
+  // unsignedResult(11) := k64
+  // unsignedResult(12) := k65
+  // unsignedResult(13) := k66
+  // unsignedResult(14) := k67
+  // unsignedResult(15) := k68|c68
+
 //   prod := Mux(signResult, (( ~unsignedResult.asSInt)+"b1".U(1.W)), unsignedResult.asSInt)
-  val unsignedResultUInt = unsignedResult.asUInt
-  prod := Mux(signResult, (~unsignedResultUInt).asUInt + 1.U, unsignedResultUInt)
+unsignedResult := Cat(
+    k68 | c68,  // bit 15
+    k67,        // bit 14  
+    k66,        // bit 13
+    k65,        // bit 12
+    k64,        // bit 11
+    k63,        // bit 10
+    k62,        // bit 9
+    k61,        // bit 8
+    k60,        // bit 7
+    k51,        // bit 6
+    k50,        // bit 5
+    k49,        // bit 4
+    k37,        // bit 3
+    k22,        // bit 2
+    k01,        // bit 1
+    s00         // bit 0
+  ).asSInt
+  // val unsignedResultSInt = unsignedResult.asSInt
+  prod := Mux(signResult, ~unsignedResult + 1.S, unsignedResult)
 }

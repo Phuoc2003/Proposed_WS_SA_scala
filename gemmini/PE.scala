@@ -184,8 +184,14 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
 
   val cType = if (df == Dataflow.WS) inputType else accType
 
-  val mac_unit = Module(new MacUnit(inputType, weightType, 
-    if (df == Dataflow.WS) outputType else accType, outputType)())
+  // val mac_unit = Module(new MacUnit(inputType, weightType, 
+  //   if (df == Dataflow.WS) outputType else accType, outputType)())
+  val mac_unit = Module(new MacUnit(
+    inputType,
+    outputType, 
+    if (df == Dataflow.WS) outputType else accType,
+    outputType
+  )())
 
   val a  = io.in_a
   val b  = io.in_b
@@ -289,7 +295,7 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
       mac_unit.io.cFb := accum.asUInt()(63, 32).asSInt
       // io.out_b(31,0) := mac_unit.io.s
       // io.out_b(63,32) := mac_unit.io.c
-      io.out_b := Cat(mac_unit.io.c, mac_unit.io.s)
+      io.out_b := Cat(mac_unit.io.c, mac_unit.io.s).asTypeOf(outputType)
       io.out_depthwise_accum := io.out_b  //accum.mac(io.in_a,(c2.asTypeOf(inputType)))
     }.otherwise {
       io.out_c := c2
@@ -301,7 +307,7 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
       mac_unit.io.cFb := accum.asUInt()(63, 32).asSInt
       // io.out_b(31,0) := mac_unit.io.s
       // io.out_b(63,32) := mac_unit.io.c
-      io.out_b := Cat(mac_unit.io.c, mac_unit.io.s)
+      io.out_b := Cat(mac_unit.io.c, mac_unit.io.s).asTypeOf(outputType)
       io.out_depthwise_accum := io.out_b //accum.mac(io.in_a,(c1.asTypeOf(inputType)))
     }
   }.otherwise {

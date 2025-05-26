@@ -39,6 +39,6 @@ class MacUnit[T <: Data](inputType: T, weightType: T, cType: T, dType: T)() exte
     csa.c := io.cFb.asTypeOf(csa.c)
     csaC := csa.cout.asTypeOf(csaC)
     csaS := csa.s.asTypeOf(csaS)
-    io.c := csaC(31,0)
-    io.s := csaS(31,0)
+    io.c := csaC(31,0).asSInt
+    io.s := csaS(31,0).asSInt
   }
