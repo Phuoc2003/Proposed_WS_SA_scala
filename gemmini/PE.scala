@@ -240,51 +240,8 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
   }
 
 
-  // when ((df == Dataflow.OS).B || ((df == Dataflow.BOTH).B && dataflow === OUTPUT_STATIONARY)) {
-  //   when(prop === PROPAGATE) {
-  //     io.out_c := (c1 >> shift_offset).clippedToWidthOf(outputType)
-  //     io.out_b := b
-  //     mac_unit.io.in_b := b.asTypeOf(weightType)
-  //     mac_unit.io.in_c := c2
-  //     c2 := mac_unit.io.out_d
-  //     c1 := d.withWidthOf(cType)
-  //   }.otherwise {
-  //     io.out_c := (c2 >> shift_offset).clippedToWidthOf(outputType)
-  //     io.out_b := b
-  //     mac_unit.io.in_b := b.asTypeOf(weightType)
-  //     mac_unit.io.in_c := c1
-  //     c1 := mac_unit.io.out_d
-  //     c2 := d.withWidthOf(cType)
-  //   }
-  // }.elsewhen ((df == Dataflow.WS).B || ((df == Dataflow.BOTH).B && dataflow === WEIGHT_STATIONARY)) {
-  //   when(prop === PROPAGATE) {
-  //     io.out_c := c1
-  //     c1 := d
-  //     mac_unit.io.in_b := c2
-  //     mac_unit.io.sFb := accum(31,0)
-  //     mac_unit.io.cFb := accum(63,32) 
-  //     io.out_b(31,0) := mac_unit.io.s
-  //     io.out_b(63,32) := mac_unit.io.c
-  //     io.out_depthwise_accum := io.out_b  //accum.mac(io.in_a,(c2.asTypeOf(inputType)))
-  //   }.otherwise {
-  //     io.out_c := c2
-  //     c2 := d
-  //     mac_unit.io.in_b := c1
-  //     mac_unit.io.sFb := accum(31,0)
-  //     mac_unit.io.cFb := accum(63,32) 
-  //     io.out_b(31,0) := mac_unit.io.s
-  //     io.out_b(63,32) := mac_unit.io.c
-  //     io.out_depthwise_accum := io.out_b //accum.mac(io.in_a,(c1.asTypeOf(inputType)))
-  //   }
-  // }.otherwise {
-  //   io.bad_dataflow := true.B
-  //   //assert(false.B, "unknown dataflow")
-  //   io.out_c := DontCare
-  //   io.out_b := DontCare
-  //   io.out_depthwise_accum := DontCare
-  // }
 
-  when ((df == Dataflow.WS).B || ((df == Dataflow.BOTH).B && dataflow === WEIGHT_STATIONARY)) {
+  // when ((df == Dataflow.WS).B || ((df == Dataflow.BOTH).B && dataflow === WEIGHT_STATIONARY)) {
     when(prop === PROPAGATE) {
       io.out_c := c1
       c1 := d
@@ -310,13 +267,14 @@ class PE[T <: Data](inputType: T, outputType: T, accType: T, df: Dataflow.Value,
       io.out_b := Cat(mac_unit.io.c, mac_unit.io.s).asTypeOf(outputType)
       io.out_depthwise_accum := io.out_b //accum.mac(io.in_a,(c1.asTypeOf(inputType)))
     }
-  }.otherwise {
-    io.bad_dataflow := true.B
-    //assert(false.B, "unknown dataflow")
-    io.out_c := DontCare
-    io.out_b := DontCare
-    io.out_depthwise_accum := DontCare
-  }
+  // }
+  // }.otherwise {
+  //   io.bad_dataflow := true.B
+  //   //assert(false.B, "unknown dataflow")
+  //   io.out_c := DontCare
+  //   io.out_b := DontCare
+  //   io.out_depthwise_accum := DontCare
+  // }
 
   when (!valid) {
     c1 := c1
