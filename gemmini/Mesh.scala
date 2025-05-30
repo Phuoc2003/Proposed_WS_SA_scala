@@ -138,15 +138,19 @@ class Mesh[T <: Data : Arithmetic](inputType: T, outputType: T, accType: T,
     last := ShiftRegister(tile.io.out_last, output_delay)
   }
 
-  for(r <- 0 until meshRows){
-    io.out_depthwise_accum(r) := ShiftRegister(mesh(r)(0).io.out_depthwise_accum, output_delay)
-  }
-
   // for(r <- 0 until meshRows){
-  //   val raw = mesh(r)(0).io.out_depthwise_accum
-  //   val low32  = raw(31, 0)
-  //   val high32 = raw(63, 32)
-  //   val sum = low32 +& high32 // +& để tránh tràn bit
-  //   io.out_depthwise_accum(r) := ShiftRegister(sum, output_delay)
+  //   io.out_depthwise_accum(r) := ShiftRegister(mesh(r)(0).io.out_depthwise_accum, output_delay)
+
   // }
+for(r <- 0 until meshRows) {
+  // Xử lý từng phần tử trong Vec
+  for(i <- 0 until tileRows) {
+    val original_value = mesh(r)(0).io.out_depthwise_accum(i)
+    val upper = original_value.asUInt()(63, 32)
+    val lower = original_value.asUInt()(31, 0)
+    val sum_bits = (upper + lower).asTypeOf(outputType)  // Chuyển đổi về đúng kiểu
+    io.out_depthwise_accum(r)(i) := ShiftRegister(sum_bits, output_delay)
+  }
+}
+
 }
