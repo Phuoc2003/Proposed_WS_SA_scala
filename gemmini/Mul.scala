@@ -14,16 +14,31 @@ class Mul() extends RawModule {
   signA := a(7)
   signB := b(7)
   signResult := signA^signB
-//   val absA = Wire(Vec(8, Bool())) 
-//   val absB = Wire(Vec(8, Bool())) 
-//   absA := Mux(signA, (( ~a)+"b1".U(1.W)).asTypeOf(Vec(8, Bool())), a.asTypeOf(Vec(8, Bool())))
-//   absB := Mux(signB, (( ~b)+"b1".U(1.W)).asTypeOf(Vec(8, Bool())), b.asTypeOf(Vec(8, Bool())))
 
-  val absA = Wire(SInt(8.W))
-  val absB = Wire(SInt(8.W))
-  absA := Mux(signA, (~a).asSInt + 1.S, a)
-  absB := Mux(signB, (~b).asSInt + 1.S, b)
 
+  // val absA = Wire(SInt(8.W))
+  // val absB = Wire(SInt(8.W))
+
+  val absA = Wire(Vec(8, Bool())) 
+  val absB = Wire(Vec(8, Bool())) 
+  val compA = Wire(SInt(8.W)) 
+  val compB = Wire(SInt(8.W)) 
+  val compProd = Wire(SInt(16.W)) 
+
+  // absA := Mux(signA, (~a).asSInt + 1.S, a)
+  // absB := Mux(signB, (~b).asSInt + 1.S, b)
+
+  val haAbsA = Module(new FullAdder8bit)
+  haAbsA.a := ( ~a).asTypeOf(haAbsA.a)
+  haAbsA.b := 1.U(8.W).asTypeOf(haAbsA.b)
+  compA := haAbsA.sum.asTypeOf(compA)
+
+  val haAbsB = Module(new FullAdder8bit)
+  haAbsB.a := ( ~b).asTypeOf(haAbsB.a)
+  haAbsB.b := 1.U(8.W).asTypeOf(haAbsB.b)
+  compB := haAbsB.sum.asTypeOf(compB)
+  absA := Mux(signA, compA, a).asBools
+  absB := Mux(signB, compB, b).asBools
 
   val unsignedResult = Wire(SInt(16.W))
 
@@ -728,5 +743,43 @@ unsignedResult := Cat(
     s00         // bit 0
   ).asSInt
   // val unsignedResultSInt = unsignedResult.asSInt
-  prod := Mux(signResult, ~unsignedResult + 1.S, unsignedResult)
+  // prod := Mux(signResult, ~unsignedResult + 1.S, unsignedResult)
+
+   val haProd = Module(new FullAdder16bit)
+  haProd.a :=  (~unsignedResult).asTypeOf(haProd.a)
+  haProd.b := 1.U(16.W).asTypeOf(haProd.b )
+  compProd := haProd.sum.asTypeOf(compProd)
+  prod := Mux(signResult, compProd.asSInt, unsignedResult)
+}
+
+class FullAdder8bit() extends RawModule {
+  val a = IO(Input(Vec(8, Bool())))
+  val b = IO(Input(Vec(8, Bool())))
+  val sum = IO(Output(Vec(8, Bool())))
+  val carry = Wire(Vec(8, Bool())) 
+  sum(0) := a(0)^b(0)
+  carry(0) := a(0)&b(0)
+
+
+  // genvar i;
+  for(i <- 1 until 8){
+    sum(i) := (a(i)^b(i))^carry(i-1)
+    carry(i) := ((a(i)&carry(i-1))|(b(i)&carry(i-1)))|(a(i)&b(i))
+  }
+}
+
+class FullAdder16bit() extends RawModule {
+  val a = IO(Input(Vec(16, Bool())))
+  val b = IO(Input(Vec(16, Bool())))
+  val sum = IO(Output(Vec(16, Bool())))
+  val carry = Wire(Vec(16, Bool())) 
+  sum(0) := a(0)^b(0)
+  carry(0) := a(0)&b(0)
+
+
+  // genvar i;
+  for(i <- 1 until 16){
+    sum(i) := (a(i)^b(i))^carry(i-1)
+    carry(i) := ((a(i)&carry(i-1))|(b(i)&carry(i-1)))|(a(i)&b(i))
+  }
 }
